@@ -1,0 +1,85 @@
+{
+	"_type": "Project",
+	"_id": "m582rzUeoEgYHRLGx3c=",
+	"name": "订单管理系统",
+	"ownedElements": [
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "tpuemJAjVg+8JPWOVRA=",
+			"_parent": {
+				"$ref": "m582rzUeoEgYHRLGx3c="
+			},
+			"name": "订单管理系统模块",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "3z2JTEYITYqy1KlmL8E=",
+					"_parent": {
+						"$ref": "tpuemJAjVg+8JPWOVRA="
+					},
+					"name": "订单管理系统主模块",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "DFDProcessView",
+							"_id": "hdXmLGDi0/a0S4kwfew=",
+							"_parent": {
+								"$ref": "3z2JTEYITYqy1KlmL8E="
+							},
+							"model": {
+								"$ref": "/56gD+j5+6zwcuF9HMA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "sPMqJl7u+oVcn9xaBLo=",
+									"_parent": {
+										"$ref": "hdXmLGDi0/a0S4kwfew="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 118,
+									"width": 172,
+									"height": 13,
+									"text": "订单管理系统",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "k4+kzBByCIUw5X4fj3I=",
+									"_parent": {
+										"$ref": "hdXmLGDi0/a0S4kwfew="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 85,
+									"width": 172,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 224,
+							"top": 80,
+							"width": 192,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "sPMqJl7u+oVcn9xaBLo="
+							},
+							"idLabel": {
+								"$ref": "k4+kzBByCIUw5X4fj3I="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "/56gD+j5+6zwcuF9HMA=",
+					"_parent": {
+						"$ref": "tpuemJAjVg+8JPWOVRA="
+					},
+					"name": "订单管理系统"
+				}
+			]
+		}
+	]
+}
