@@ -429,13 +429,22 @@
                   "_parent": {
                     "$ref": "AAAAAAGhxFtb3EARgWA="
                   },
-                  "name": "添加机票",
                   "source": {
                     "$ref": "AAAAAAGhxFvA3kAX5x0="
                   },
                   "target": {
                     "$ref": "Ldj8WKgcsuM9Jm+0RfM="
-                  }
+                  },
+                  "triggers": [
+                    {
+                      "_type": "UMLEvent",
+                      "_id": "SEH6OE26ZoPguSILIdY=",
+                      "_parent": {
+                        "$ref": "h6Q81Qs5nqUv9gcT8XY="
+                      },
+                      "name": "添加机票"
+                    }
+                  ]
                 }
               ]
             }
