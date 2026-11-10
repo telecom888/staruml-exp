@@ -1,0 +1,1076 @@
+{
+	"_type": "Project",
+	"_id": "SKmrHckqIVXH1PkmvFA=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "bPktG8AKjYYP7brSWjA=",
+			"_parent": {
+				"$ref": "SKmrHckqIVXH1PkmvFA="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "LXTXP/yzawS2aWjSvu4=",
+					"_parent": {
+						"$ref": "bPktG8AKjYYP7brSWjA="
+					},
+					"name": "Main",
+					"ownedViews": []
+				},
+				{
+					"_type": "DFDDataFlowModel",
+					"_id": "Fn+FY6OJI0hzrkTk8Xk=",
+					"_parent": {
+						"$ref": "bPktG8AKjYYP7brSWjA="
+					},
+					"name": "DataFlowModel1",
+					"ownedElements": [
+						{
+							"_type": "DFDDiagram",
+							"_id": "t5PntgAklluXaKfKGoA=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "DFDDiagram1",
+							"defaultDiagram": true,
+							"ownedViews": [
+								{
+									"_type": "DFDProcessView",
+									"_id": "RXmgrbyv6AzdfcQ2hW8=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "kF9oHTG3yJl3B5EyXA8="
+									},
+									"font": "Arial;13;0",
+									"left": 368,
+									"top": 48,
+									"width": 250,
+									"height": 72,
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "nJDZP+UG8sNmVXctrjk=",
+											"_parent": {
+												"$ref": "RXmgrbyv6AzdfcQ2hW8="
+											},
+											"font": "Arial;13;0",
+											"left": 378,
+											"top": 60,
+											"width": 230,
+											"height": 13,
+											"text": "管理员信息管理系统",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "UEOLhm1lqFiAZ+bbtWs=",
+											"_parent": {
+												"$ref": "RXmgrbyv6AzdfcQ2hW8="
+											},
+											"font": "Arial;13;0",
+											"left": 378,
+											"top": 53,
+											"width": 230,
+											"height": 13
+										}
+									],
+									"nameLabel": {
+										"$ref": "nJDZP+UG8sNmVXctrjk="
+									},
+									"idLabel": {
+										"$ref": "UEOLhm1lqFiAZ+bbtWs="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "2+isDiKznT9mCtaZqdA=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "6kx3+OF94h+rjqp8rBM="
+									},
+									"font": "Arial;13;0",
+									"left": 62,
+									"top": 240,
+									"width": 194,
+									"height": 60,
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "zGiR3fZptwTnqFCLJ3M=",
+											"_parent": {
+												"$ref": "2+isDiKznT9mCtaZqdA="
+											},
+											"font": "Arial;13;0",
+											"left": 72,
+											"top": 252,
+											"width": 174,
+											"height": 13,
+											"text": "界面管理员",
+											"wordWrap": true
+										}
+									],
+									"nameLabel": {
+										"$ref": "zGiR3fZptwTnqFCLJ3M="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "lqhoNEDpueYmsCjhWgI=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "PsOgxFHmS9E/FNCajpg="
+									},
+									"font": "Arial;13;0",
+									"left": 405,
+									"top": 240,
+									"width": 174,
+									"height": 60,
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "kLIO2ZglPq+OCZeHfvA=",
+											"_parent": {
+												"$ref": "lqhoNEDpueYmsCjhWgI="
+											},
+											"font": "Arial;13;0",
+											"left": 415,
+											"top": 252,
+											"width": 154,
+											"height": 13,
+											"text": "订单管理员",
+											"wordWrap": true
+										}
+									],
+									"nameLabel": {
+										"$ref": "kLIO2ZglPq+OCZeHfvA="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "jvwWWsfrVEAf48kF7M8=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "ehidrDDf3grYx2zglW0="
+									},
+									"font": "Arial;13;0",
+									"left": 697,
+									"top": 240,
+									"width": 178,
+									"height": 60,
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "Uqs7doQfYAHH28lZmDc=",
+											"_parent": {
+												"$ref": "jvwWWsfrVEAf48kF7M8="
+											},
+											"font": "Arial;13;0",
+											"left": 707,
+											"top": 252,
+											"width": 158,
+											"height": 13,
+											"text": "超级管理员",
+											"wordWrap": true
+										}
+									],
+									"nameLabel": {
+										"$ref": "Uqs7doQfYAHH28lZmDc="
+									}
+								},
+								{
+									"_type": "DFDProcessView",
+									"_id": "lG26kG27WxBacCVskbU=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "ZWxm8hkTG9/zbBoie64="
+									},
+									"font": "Arial;13;0",
+									"left": 30,
+									"top": 405,
+									"width": 258,
+									"height": 72,
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "3jOZ66WvhatZVGnbtPU=",
+											"_parent": {
+												"$ref": "lG26kG27WxBacCVskbU="
+											},
+											"font": "Arial;13;0",
+											"left": 40,
+											"top": 417,
+											"width": 238,
+											"height": 13,
+											"text": "界面管理系统",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "uc1VmbW0w1WH8d+cUSg=",
+											"_parent": {
+												"$ref": "lG26kG27WxBacCVskbU="
+											},
+											"font": "Arial;13;0",
+											"left": 40,
+											"top": 410,
+											"width": 238,
+											"height": 13
+										}
+									],
+									"nameLabel": {
+										"$ref": "3jOZ66WvhatZVGnbtPU="
+									},
+									"idLabel": {
+										"$ref": "uc1VmbW0w1WH8d+cUSg="
+									}
+								},
+								{
+									"_type": "DFDProcessView",
+									"_id": "Rs0ON6uAJNPY0a4LZuY=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "roGQ+t66N/Gjki4drwM="
+									},
+									"font": "Arial;13;0",
+									"left": 380,
+									"top": 405,
+									"width": 226,
+									"height": 72,
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "Jvid5dpDfroHroceMqQ=",
+											"_parent": {
+												"$ref": "Rs0ON6uAJNPY0a4LZuY="
+											},
+											"font": "Arial;13;0",
+											"left": 390,
+											"top": 417,
+											"width": 206,
+											"height": 13,
+											"text": "订单管理系统",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "cRznj8oe0syxwuGCmis=",
+											"_parent": {
+												"$ref": "Rs0ON6uAJNPY0a4LZuY="
+											},
+											"font": "Arial;13;0",
+											"left": 390,
+											"top": 410,
+											"width": 206,
+											"height": 13
+										}
+									],
+									"nameLabel": {
+										"$ref": "Jvid5dpDfroHroceMqQ="
+									},
+									"idLabel": {
+										"$ref": "cRznj8oe0syxwuGCmis="
+									}
+								},
+								{
+									"_type": "DFDProcessView",
+									"_id": "SyU2sPRYe5KwfgMs/NU=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "ScArMoqKgxVceFAwFGk="
+									},
+									"font": "Arial;13;0",
+									"left": 738,
+									"top": 405,
+									"width": 226,
+									"height": 72,
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "Iq3XyiXKuO3ia1KQARY=",
+											"_parent": {
+												"$ref": "SyU2sPRYe5KwfgMs/NU="
+											},
+											"font": "Arial;13;0",
+											"left": 748,
+											"top": 417,
+											"width": 206,
+											"height": 13,
+											"text": "用户管理系统",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "QwnlbZql+OzQStebemY=",
+											"_parent": {
+												"$ref": "SyU2sPRYe5KwfgMs/NU="
+											},
+											"font": "Arial;13;0",
+											"left": 748,
+											"top": 410,
+											"width": 206,
+											"height": 13
+										}
+									],
+									"nameLabel": {
+										"$ref": "Iq3XyiXKuO3ia1KQARY="
+									},
+									"idLabel": {
+										"$ref": "QwnlbZql+OzQStebemY="
+									}
+								},
+								{
+									"_type": "DFDDataStoreView",
+									"_id": "96KhnbGHDvppmEqXyV8=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "kgFb8z3bQjQX1/PlMpk="
+									},
+									"font": "Arial;13;0",
+									"left": 388,
+									"top": 570,
+									"width": 210,
+									"height": 50,
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "94PugliRgQokNCvAQ9E=",
+											"_parent": {
+												"$ref": "96KhnbGHDvppmEqXyV8="
+											},
+											"font": "Arial;13;0",
+											"left": 398,
+											"top": 582,
+											"width": 190,
+											"height": 13,
+											"text": "订单文件",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "XCT+5Q4m3zn5pylHkok=",
+											"_parent": {
+												"$ref": "96KhnbGHDvppmEqXyV8="
+											},
+											"font": "Arial;13;0",
+											"left": 398,
+											"top": 575,
+											"height": 13,
+											"width": 190
+										}
+									],
+									"nameLabel": {
+										"$ref": "94PugliRgQokNCvAQ9E="
+									},
+									"idLabel": {
+										"$ref": "XCT+5Q4m3zn5pylHkok="
+									}
+								},
+								{
+									"_type": "DFDDataStoreView",
+									"_id": "+I6pqqRj4skqwgBAX8E=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "1mwpi8EYrq2bte54qGg="
+									},
+									"font": "Arial;13;0",
+									"left": 763,
+									"top": 570,
+									"width": 185,
+									"height": 50,
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "T/psgjoY+q4BYjM5bJ8=",
+											"_parent": {
+												"$ref": "+I6pqqRj4skqwgBAX8E="
+											},
+											"font": "Arial;13;0",
+											"left": 773,
+											"top": 582,
+											"width": 165,
+											"height": 13,
+											"text": "用户信息文件",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "sA9lqHooASaIWudmHeg=",
+											"_parent": {
+												"$ref": "+I6pqqRj4skqwgBAX8E="
+											},
+											"font": "Arial;13;0",
+											"left": 773,
+											"top": 575,
+											"height": 13,
+											"width": 165
+										}
+									],
+									"nameLabel": {
+										"$ref": "T/psgjoY+q4BYjM5bJ8="
+									},
+									"idLabel": {
+										"$ref": "sA9lqHooASaIWudmHeg="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "EPAqKXsdlVmJMYYonLw=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "t7XoBlJEnkDwvs9ISXo="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "i/FOelrBwUGzRqrJMss=",
+											"_parent": {
+												"$ref": "EPAqKXsdlVmJMYYonLw="
+											},
+											"model": {
+												"$ref": "t7XoBlJEnkDwvs9ISXo="
+											},
+											"font": "Arial;13;0",
+											"left": 191,
+											"top": 112,
+											"width": 91,
+											"height": 26,
+											"alpha": 1.5708,
+											"distance": 21,
+											"hostEdge": {
+												"$ref": "EPAqKXsdlVmJMYYonLw="
+											},
+											"edgePosition": 1,
+											"text": "个人信息",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "RXmgrbyv6AzdfcQ2hW8="
+									},
+									"tail": {
+										"$ref": "2+isDiKznT9mCtaZqdA="
+									},
+									"lineStyle": 1,
+									"points": "206:240;426:119",
+									"nameLabel": {
+										"$ref": "i/FOelrBwUGzRqrJMss="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "FlRNMnChjdjrkWsv3kM=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "xSIw2UCwL1TFs2EhBYU="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "sZyMtsSfX35UT2QpiOA=",
+											"_parent": {
+												"$ref": "FlRNMnChjdjrkWsv3kM="
+											},
+											"model": {
+												"$ref": "xSIw2UCwL1TFs2EhBYU="
+											},
+											"font": "Arial;13;0",
+											"left": 191,
+											"top": 112,
+											"width": 91,
+											"height": 26,
+											"alpha": 1.5708,
+											"distance": 40,
+											"hostEdge": {
+												"$ref": "FlRNMnChjdjrkWsv3kM="
+											},
+											"edgePosition": 1,
+											"text": "个人信息",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "RXmgrbyv6AzdfcQ2hW8="
+									},
+									"tail": {
+										"$ref": "lqhoNEDpueYmsCjhWgI="
+									},
+									"lineStyle": 1,
+									"points": "492:240;492:119",
+									"nameLabel": {
+										"$ref": "sZyMtsSfX35UT2QpiOA="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "i9xUEh1wtxG+KK1GCHk=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "ZQQLxymI/mHmTLSW+Bk="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "4x3MWl9yjCDs9h3T9v0=",
+											"_parent": {
+												"$ref": "i9xUEh1wtxG+KK1GCHk="
+											},
+											"model": {
+												"$ref": "ZQQLxymI/mHmTLSW+Bk="
+											},
+											"font": "Arial;13;0",
+											"left": 191,
+											"top": 112,
+											"width": 91,
+											"height": 26,
+											"alpha": -1.5708,
+											"distance": 21,
+											"hostEdge": {
+												"$ref": "i9xUEh1wtxG+KK1GCHk="
+											},
+											"edgePosition": 1,
+											"text": "个人信息",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "RXmgrbyv6AzdfcQ2hW8="
+									},
+									"tail": {
+										"$ref": "jvwWWsfrVEAf48kF7M8="
+									},
+									"lineStyle": 1,
+									"points": "737:240;554:119",
+									"nameLabel": {
+										"$ref": "4x3MWl9yjCDs9h3T9v0="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "50WWSFJWFtp3dyWvZnM=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "QrIIhoJcyfIhFl2s4Po="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "z7k9Eo6NS3W8ijLhYI4=",
+											"_parent": {
+												"$ref": "50WWSFJWFtp3dyWvZnM="
+											},
+											"model": {
+												"$ref": "QrIIhoJcyfIhFl2s4Po="
+											},
+											"font": "Arial;13;0",
+											"left": 191,
+											"top": 112,
+											"width": 91,
+											"height": 26,
+											"alpha": 1.5708,
+											"distance": 76,
+											"hostEdge": {
+												"$ref": "50WWSFJWFtp3dyWvZnM="
+											},
+											"edgePosition": 1,
+											"text": "新增的商品和广告信息",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "lG26kG27WxBacCVskbU="
+									},
+									"tail": {
+										"$ref": "2+isDiKznT9mCtaZqdA="
+									},
+									"lineStyle": 1,
+									"points": "159:299;159:405",
+									"nameLabel": {
+										"$ref": "z7k9Eo6NS3W8ijLhYI4="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "8v9jgprI1u9o9VsoNU8=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "4XbssbEM7atf/LgqPeY="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "9cLY+Yv2W+hrHHoVNxA=",
+											"_parent": {
+												"$ref": "8v9jgprI1u9o9VsoNU8="
+											},
+											"model": {
+												"$ref": "4XbssbEM7atf/LgqPeY="
+											},
+											"font": "Arial;13;0",
+											"left": 191,
+											"top": 112,
+											"width": 91,
+											"height": 26,
+											"alpha": 1.5708,
+											"distance": 39,
+											"hostEdge": {
+												"$ref": "8v9jgprI1u9o9VsoNU8="
+											},
+											"edgePosition": 1,
+											"text": "订单信息",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "lqhoNEDpueYmsCjhWgI="
+									},
+									"tail": {
+										"$ref": "Rs0ON6uAJNPY0a4LZuY="
+									},
+									"lineStyle": 1,
+									"points": "492:405;492:299",
+									"nameLabel": {
+										"$ref": "9cLY+Yv2W+hrHHoVNxA="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "ZGpDC017kienjkvW+qY=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "Z3cpQq3TS/seTXFr748="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "yAfTrqvqSzLaD9a6Px0=",
+											"_parent": {
+												"$ref": "ZGpDC017kienjkvW+qY="
+											},
+											"model": {
+												"$ref": "Z3cpQq3TS/seTXFr748="
+											},
+											"font": "Arial;13;0",
+											"left": 191,
+											"top": 112,
+											"width": 91,
+											"height": 26,
+											"alpha": 1.5708,
+											"distance": 28,
+											"hostEdge": {
+												"$ref": "ZGpDC017kienjkvW+qY="
+											},
+											"edgePosition": 1,
+											"text": "历史订单记录",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "jvwWWsfrVEAf48kF7M8="
+									},
+									"tail": {
+										"$ref": "Rs0ON6uAJNPY0a4LZuY="
+									},
+									"lineStyle": 2,
+									"points": "605:411;730:411;730:299",
+									"nameLabel": {
+										"$ref": "yAfTrqvqSzLaD9a6Px0="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "q8EmkM2xAJ6zCTojmeU=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "sQA8WZtOPM7w0fJgd3I="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "RhcyP9SRG61cySkCdD0=",
+											"_parent": {
+												"$ref": "q8EmkM2xAJ6zCTojmeU="
+											},
+											"model": {
+												"$ref": "sQA8WZtOPM7w0fJgd3I="
+											},
+											"font": "Arial;13;0",
+											"left": 191,
+											"top": 112,
+											"width": 91,
+											"height": 26,
+											"alpha": -1.5708,
+											"distance": 37,
+											"hostEdge": {
+												"$ref": "q8EmkM2xAJ6zCTojmeU="
+											},
+											"edgePosition": 1,
+											"text": "用户信息",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "jvwWWsfrVEAf48kF7M8="
+									},
+									"tail": {
+										"$ref": "SyU2sPRYe5KwfgMs/NU="
+									},
+									"lineStyle": 1,
+									"points": "803:405;803:299",
+									"nameLabel": {
+										"$ref": "RhcyP9SRG61cySkCdD0="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "LbNNs0jZqJQojCgQwKo=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "Xvsj0c75XgNSROdZHDA="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "r+01JBB1iUZw4sdM85M=",
+											"_parent": {
+												"$ref": "LbNNs0jZqJQojCgQwKo="
+											},
+											"model": {
+												"$ref": "Xvsj0c75XgNSROdZHDA="
+											},
+											"font": "Arial;13;0",
+											"left": 191,
+											"top": 112,
+											"width": 91,
+											"height": 26,
+											"alpha": 0,
+											"distance": 0,
+											"hostEdge": {
+												"$ref": "LbNNs0jZqJQojCgQwKo="
+											},
+											"edgePosition": 1,
+											"text": "",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "Rs0ON6uAJNPY0a4LZuY="
+									},
+									"tail": {
+										"$ref": "96KhnbGHDvppmEqXyV8="
+									},
+									"lineStyle": 1,
+									"points": "492:570;492:476",
+									"nameLabel": {
+										"$ref": "r+01JBB1iUZw4sdM85M="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "iI8/nlTK9k95ZMxXCa4=",
+									"_parent": {
+										"$ref": "t5PntgAklluXaKfKGoA="
+									},
+									"model": {
+										"$ref": "hrsx7M7MM1JFOL3wmbc="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "W63ECtEAHVvzhF9a7nY=",
+											"_parent": {
+												"$ref": "iI8/nlTK9k95ZMxXCa4="
+											},
+											"model": {
+												"$ref": "hrsx7M7MM1JFOL3wmbc="
+											},
+											"font": "Arial;13;0",
+											"left": 191,
+											"top": 112,
+											"width": 91,
+											"height": 26,
+											"alpha": 0,
+											"distance": 0,
+											"hostEdge": {
+												"$ref": "iI8/nlTK9k95ZMxXCa4="
+											},
+											"edgePosition": 1,
+											"text": "",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "SyU2sPRYe5KwfgMs/NU="
+									},
+									"tail": {
+										"$ref": "+I6pqqRj4skqwgBAX8E="
+									},
+									"lineStyle": 1,
+									"points": "854:570;854:476",
+									"nameLabel": {
+										"$ref": "W63ECtEAHVvzhF9a7nY="
+									}
+								}
+							]
+						},
+						{
+							"_type": "DFDProcess",
+							"_id": "kF9oHTG3yJl3B5EyXA8=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "管理员信息管理系统"
+						},
+						{
+							"_type": "DFDExternalEntity",
+							"_id": "6kx3+OF94h+rjqp8rBM=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "界面管理员",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "t7XoBlJEnkDwvs9ISXo=",
+									"_parent": {
+										"$ref": "6kx3+OF94h+rjqp8rBM="
+									},
+									"source": {
+										"$ref": "6kx3+OF94h+rjqp8rBM="
+									},
+									"target": {
+										"$ref": "kF9oHTG3yJl3B5EyXA8="
+									},
+									"name": "个人信息"
+								},
+								{
+									"_type": "DFDDataFlow",
+									"_id": "QrIIhoJcyfIhFl2s4Po=",
+									"_parent": {
+										"$ref": "6kx3+OF94h+rjqp8rBM="
+									},
+									"source": {
+										"$ref": "6kx3+OF94h+rjqp8rBM="
+									},
+									"target": {
+										"$ref": "ZWxm8hkTG9/zbBoie64="
+									},
+									"name": "新增的商品和广告信息"
+								}
+							]
+						},
+						{
+							"_type": "DFDExternalEntity",
+							"_id": "PsOgxFHmS9E/FNCajpg=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "订单管理员",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "xSIw2UCwL1TFs2EhBYU=",
+									"_parent": {
+										"$ref": "PsOgxFHmS9E/FNCajpg="
+									},
+									"source": {
+										"$ref": "PsOgxFHmS9E/FNCajpg="
+									},
+									"target": {
+										"$ref": "kF9oHTG3yJl3B5EyXA8="
+									},
+									"name": "个人信息"
+								}
+							]
+						},
+						{
+							"_type": "DFDExternalEntity",
+							"_id": "ehidrDDf3grYx2zglW0=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "超级管理员",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "ZQQLxymI/mHmTLSW+Bk=",
+									"_parent": {
+										"$ref": "ehidrDDf3grYx2zglW0="
+									},
+									"source": {
+										"$ref": "ehidrDDf3grYx2zglW0="
+									},
+									"target": {
+										"$ref": "kF9oHTG3yJl3B5EyXA8="
+									},
+									"name": "个人信息"
+								}
+							]
+						},
+						{
+							"_type": "DFDProcess",
+							"_id": "ZWxm8hkTG9/zbBoie64=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "界面管理系统"
+						},
+						{
+							"_type": "DFDProcess",
+							"_id": "roGQ+t66N/Gjki4drwM=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "订单管理系统",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "4XbssbEM7atf/LgqPeY=",
+									"_parent": {
+										"$ref": "roGQ+t66N/Gjki4drwM="
+									},
+									"source": {
+										"$ref": "roGQ+t66N/Gjki4drwM="
+									},
+									"target": {
+										"$ref": "PsOgxFHmS9E/FNCajpg="
+									},
+									"name": "订单信息"
+								},
+								{
+									"_type": "DFDDataFlow",
+									"_id": "Z3cpQq3TS/seTXFr748=",
+									"_parent": {
+										"$ref": "roGQ+t66N/Gjki4drwM="
+									},
+									"source": {
+										"$ref": "roGQ+t66N/Gjki4drwM="
+									},
+									"target": {
+										"$ref": "ehidrDDf3grYx2zglW0="
+									},
+									"name": "历史订单记录"
+								}
+							]
+						},
+						{
+							"_type": "DFDProcess",
+							"_id": "ScArMoqKgxVceFAwFGk=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "用户管理系统",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "sQA8WZtOPM7w0fJgd3I=",
+									"_parent": {
+										"$ref": "ScArMoqKgxVceFAwFGk="
+									},
+									"source": {
+										"$ref": "ScArMoqKgxVceFAwFGk="
+									},
+									"target": {
+										"$ref": "ehidrDDf3grYx2zglW0="
+									},
+									"name": "用户信息"
+								}
+							]
+						},
+						{
+							"_type": "DFDDataStore",
+							"_id": "kgFb8z3bQjQX1/PlMpk=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "订单文件",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "Xvsj0c75XgNSROdZHDA=",
+									"_parent": {
+										"$ref": "kgFb8z3bQjQX1/PlMpk="
+									},
+									"source": {
+										"$ref": "kgFb8z3bQjQX1/PlMpk="
+									},
+									"target": {
+										"$ref": "roGQ+t66N/Gjki4drwM="
+									}
+								}
+							]
+						},
+						{
+							"_type": "DFDDataStore",
+							"_id": "1mwpi8EYrq2bte54qGg=",
+							"_parent": {
+								"$ref": "Fn+FY6OJI0hzrkTk8Xk="
+							},
+							"name": "用户信息文件",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "hrsx7M7MM1JFOL3wmbc=",
+									"_parent": {
+										"$ref": "1mwpi8EYrq2bte54qGg="
+									},
+									"source": {
+										"$ref": "1mwpi8EYrq2bte54qGg="
+									},
+									"target": {
+										"$ref": "ScArMoqKgxVceFAwFGk="
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
