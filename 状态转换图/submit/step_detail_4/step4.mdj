@@ -1659,13 +1659,22 @@
                   "_parent": {
                     "$ref": "AAAAAAGhxFtb3EARgWA="
                   },
-                  "name": "添加机票",
                   "source": {
                     "$ref": "AAAAAAGhxFvA3kAX5x0="
                   },
                   "target": {
                     "$ref": "Ldj8WKgcsuM9Jm+0RfM="
-                  }
+                  },
+                  "triggers": [
+                    {
+                      "_type": "UMLEvent",
+                      "_id": "gcmIFluvxCm1XIkR6OQ=",
+                      "_parent": {
+                        "$ref": "h6Q81Qs5nqUv9gcT8XY="
+                      },
+                      "name": "添加机票"
+                    }
+                  ]
                 },
                 {
                   "_type": "UMLTransition",
@@ -1673,13 +1682,22 @@
                   "_parent": {
                     "$ref": "AAAAAAGhxFtb3EARgWA="
                   },
-                  "name": "审核通过",
                   "source": {
                     "$ref": "Ldj8WKgcsuM9Jm+0RfM="
                   },
                   "target": {
                     "$ref": "V6r0AD62qRVNHHEUnx8="
-                  }
+                  },
+                  "triggers": [
+                    {
+                      "_type": "UMLEvent",
+                      "_id": "LxnwUkMjFkUWR51T6Yg=",
+                      "_parent": {
+                        "$ref": "vvZzZ27z8mUbUQd4Oz0="
+                      },
+                      "name": "审核通过"
+                    }
+                  ]
                 },
                 {
                   "_type": "UMLTransition",
@@ -1687,13 +1705,22 @@
                   "_parent": {
                     "$ref": "AAAAAAGhxFtb3EARgWA="
                   },
-                  "name": "销售完毕",
                   "source": {
                     "$ref": "V6r0AD62qRVNHHEUnx8="
                   },
                   "target": {
                     "$ref": "vdoP3TaBvp9FRNYG6Jo="
-                  }
+                  },
+                  "triggers": [
+                    {
+                      "_type": "UMLEvent",
+                      "_id": "SMe1HVCRV6i0UhkSIjE=",
+                      "_parent": {
+                        "$ref": "YrgXB1V5NOse38LXzTg="
+                      },
+                      "name": "销售完毕"
+                    }
+                  ]
                 },
                 {
                   "_type": "UMLTransition",
@@ -1701,13 +1728,22 @@
                   "_parent": {
                     "$ref": "AAAAAAGhxFtb3EARgWA="
                   },
-                  "name": "航班取消",
                   "source": {
                     "$ref": "V6r0AD62qRVNHHEUnx8="
                   },
                   "target": {
                     "$ref": "9+7SlbXY9jCP+02mrk0="
-                  }
+                  },
+                  "triggers": [
+                    {
+                      "_type": "UMLEvent",
+                      "_id": "Oacd8XsLf3dBeaKFXB4=",
+                      "_parent": {
+                        "$ref": "GGbqZauYcm7S3ro/ne0="
+                      },
+                      "name": "航班取消"
+                    }
+                  ]
                 },
                 {
                   "_type": "UMLTransition",
@@ -1715,13 +1751,22 @@
                   "_parent": {
                     "$ref": "AAAAAAGhxFtb3EARgWA="
                   },
-                  "name": "清空机票",
                   "source": {
                     "$ref": "vdoP3TaBvp9FRNYG6Jo="
                   },
                   "target": {
                     "$ref": "1Jd8Wu6vXJD3b29ZJI0="
-                  }
+                  },
+                  "triggers": [
+                    {
+                      "_type": "UMLEvent",
+                      "_id": "ZaG+eu3KoSD1QEuwxZc=",
+                      "_parent": {
+                        "$ref": "ylXLeMK4NJXeX1ynKyk="
+                      },
+                      "name": "清空机票"
+                    }
+                  ]
                 },
                 {
                   "_type": "UMLTransition",
@@ -1729,13 +1774,22 @@
                   "_parent": {
                     "$ref": "AAAAAAGhxFtb3EARgWA="
                   },
-                  "name": "清空机票",
                   "source": {
                     "$ref": "9+7SlbXY9jCP+02mrk0="
                   },
                   "target": {
                     "$ref": "1Jd8Wu6vXJD3b29ZJI0="
-                  }
+                  },
+                  "triggers": [
+                    {
+                      "_type": "UMLEvent",
+                      "_id": "2KSQYPl2GiE8L7moOuU=",
+                      "_parent": {
+                        "$ref": "pomaE8L/rZnkQWJ0M7A="
+                      },
+                      "name": "清空机票"
+                    }
+                  ]
                 },
                 {
                   "_type": "UMLTransition",
@@ -1743,13 +1797,22 @@
                   "_parent": {
                     "$ref": "AAAAAAGhxFtb3EARgWA="
                   },
-                  "name": "删除机票",
                   "source": {
                     "$ref": "1Jd8Wu6vXJD3b29ZJI0="
                   },
                   "target": {
                     "$ref": "AAAAAAGhxFvuf0AoJbE="
-                  }
+                  },
+                  "triggers": [
+                    {
+                      "_type": "UMLEvent",
+                      "_id": "eARRqpcOoRtyD4+L2r4=",
+                      "_parent": {
+                        "$ref": "S0Cpyu7WxiA8+PCnpAQ="
+                      },
+                      "name": "删除机票"
+                    }
+                  ]
                 }
               ]
             }
