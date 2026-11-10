@@ -1,0 +1,205 @@
+{
+  "_type": "Project",
+  "_id": "l7Pg2sVnuBknHRTHMO4=",
+  "name": "Untitled",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "M5jkpMImnpMHriEwUBQ=",
+      "_parent": {
+        "$ref": "l7Pg2sVnuBknHRTHMO4="
+      },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "z+//qUHXN18OqKf2ilY=",
+          "_parent": {
+            "$ref": "M5jkpMImnpMHriEwUBQ="
+          },
+          "name": "Main",
+          "ownedViews": []
+        },
+        {
+          "_type": "DFDDataFlowModel",
+          "_id": "6P+2guViDU7JsbKs0b4=",
+          "_parent": {
+            "$ref": "M5jkpMImnpMHriEwUBQ="
+          },
+          "name": "DataFlowModel1",
+          "ownedElements": [
+            {
+              "_type": "DFDDiagram",
+              "_id": "j+2zijLN01xbcV2NSIY=",
+              "_parent": {
+                "$ref": "6P+2guViDU7JsbKs0b4="
+              },
+              "name": "DFDDiagram1",
+              "defaultDiagram": true,
+              "ownedViews": [
+                {
+                  "_type": "DFDExternalEntityView",
+                  "_id": "yf1YpdeJ1JeXjD4xvFU=",
+                  "_parent": {
+                    "$ref": "j+2zijLN01xbcV2NSIY="
+                  },
+                  "model": {
+                    "$ref": "im8rarggXP3BGf87Qhk="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 90,
+                  "top": 164,
+                  "width": 130,
+                  "height": 36,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "7nNZ09myu01maLcac4k=",
+                      "_parent": {
+                        "$ref": "yf1YpdeJ1JeXjD4xvFU="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 100,
+                      "top": 176,
+                      "width": 110,
+                      "height": 13,
+                      "text": "旅客",
+                      "wordWrap": true
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "7nNZ09myu01maLcac4k="
+                  }
+                },
+                {
+                  "_type": "DFDProcessView",
+                  "_id": "kwYEweqK/TXE9Xlp2MA=",
+                  "_parent": {
+                    "$ref": "j+2zijLN01xbcV2NSIY="
+                  },
+                  "model": {
+                    "$ref": "G4CElDloSruiyDigPnA="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 355,
+                  "top": 152,
+                  "width": 104,
+                  "height": 60,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "LQLhdpmkm8l8buKJf9I=",
+                      "_parent": {
+                        "$ref": "kwYEweqK/TXE9Xlp2MA="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 365,
+                      "top": 164,
+                      "width": 84,
+                      "height": 13,
+                      "text": "订票",
+                      "wordWrap": true
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "k+lXbQIyZdKRjTvv5RY=",
+                      "_parent": {
+                        "$ref": "kwYEweqK/TXE9Xlp2MA="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 365,
+                      "top": 157,
+                      "width": 84,
+                      "height": 13,
+                      "text": ""
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "LQLhdpmkm8l8buKJf9I="
+                  },
+                  "idLabel": {
+                    "$ref": "k+lXbQIyZdKRjTvv5RY="
+                  }
+                },
+                {
+                  "_type": "DFDDataStoreView",
+                  "_id": "FLd/jC7r3/HyvJvXovo=",
+                  "_parent": {
+                    "$ref": "j+2zijLN01xbcV2NSIY="
+                  },
+                  "model": {
+                    "$ref": "t3FhcB3IpGFAZxyWncs="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 355,
+                  "top": 342,
+                  "width": 125,
+                  "height": 36,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "XndnbtTMlLKYtBjEYkY=",
+                      "_parent": {
+                        "$ref": "FLd/jC7r3/HyvJvXovo="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 365,
+                      "top": 354,
+                      "width": 105,
+                      "height": 13,
+                      "text": "订票信息",
+                      "wordWrap": true
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "dAq9oXMyw0x+y4RLlu8=",
+                      "_parent": {
+                        "$ref": "FLd/jC7r3/HyvJvXovo="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 365,
+                      "top": 347,
+                      "width": 105,
+                      "height": 13,
+                      "text": ""
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "XndnbtTMlLKYtBjEYkY="
+                  },
+                  "idLabel": {
+                    "$ref": "dAq9oXMyw0x+y4RLlu8="
+                  }
+                }
+              ]
+            },
+            {
+              "_type": "DFDExternalEntity",
+              "_id": "im8rarggXP3BGf87Qhk=",
+              "_parent": {
+                "$ref": "6P+2guViDU7JsbKs0b4="
+              },
+              "name": "旅客"
+            },
+            {
+              "_type": "DFDProcess",
+              "_id": "G4CElDloSruiyDigPnA=",
+              "_parent": {
+                "$ref": "6P+2guViDU7JsbKs0b4="
+              },
+              "name": "订票"
+            },
+            {
+              "_type": "DFDDataStore",
+              "_id": "t3FhcB3IpGFAZxyWncs=",
+              "_parent": {
+                "$ref": "6P+2guViDU7JsbKs0b4="
+              },
+              "name": "订票信息"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

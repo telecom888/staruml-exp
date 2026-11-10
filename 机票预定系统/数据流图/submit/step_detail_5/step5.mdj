@@ -1,0 +1,805 @@
+{
+  "_type": "Project",
+  "_id": "hOpxVxCrREk1YuoXj6M=",
+  "name": "Untitled",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "KNosOIpGlJmufh5p9do=",
+      "_parent": {
+        "$ref": "hOpxVxCrREk1YuoXj6M="
+      },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "RiHe7jGI1ImmqgTLAHY=",
+          "_parent": {
+            "$ref": "KNosOIpGlJmufh5p9do="
+          },
+          "name": "Main",
+          "ownedViews": []
+        },
+        {
+          "_type": "DFDDataFlowModel",
+          "_id": "EWd58wp9Eo51fFsLBNk=",
+          "_parent": {
+            "$ref": "KNosOIpGlJmufh5p9do="
+          },
+          "name": "DataFlowModel1",
+          "ownedElements": [
+            {
+              "_type": "DFDDiagram",
+              "_id": "EyH33JQWswjiFHcU5nE=",
+              "_parent": {
+                "$ref": "EWd58wp9Eo51fFsLBNk="
+              },
+              "name": "DFDDiagram1",
+              "defaultDiagram": true,
+              "ownedViews": [
+                {
+                  "_type": "DFDExternalEntityView",
+                  "_id": "jh71uss4EiHVE1hzmvk=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "Hf6Lp878EsJgqTzAYz0="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 90,
+                  "top": 170,
+                  "width": 135,
+                  "height": 40,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "dglFemYeu7FvFPWZ2q8=",
+                      "_parent": {
+                        "$ref": "jh71uss4EiHVE1hzmvk="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 100,
+                      "top": 182,
+                      "width": 115,
+                      "height": 13,
+                      "text": "旅客",
+                      "wordWrap": true
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "dglFemYeu7FvFPWZ2q8="
+                  }
+                },
+                {
+                  "_type": "DFDProcessView",
+                  "_id": "vtkvB3WMAsXYUWukyZA=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "VP4KxqHVWDp6Z4E+Km0="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 342,
+                  "top": 156,
+                  "width": 102,
+                  "height": 66,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "+oH+pwqkrsoFJhspjOA=",
+                      "_parent": {
+                        "$ref": "vtkvB3WMAsXYUWukyZA="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 352,
+                      "top": 168,
+                      "width": 82,
+                      "height": 13,
+                      "text": "订票",
+                      "wordWrap": true
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "qYH11ADv7JtRKVJ+yOI=",
+                      "_parent": {
+                        "$ref": "vtkvB3WMAsXYUWukyZA="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 352,
+                      "top": 161,
+                      "width": 82,
+                      "height": 13,
+                      "text": "2.1"
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "+oH+pwqkrsoFJhspjOA="
+                  },
+                  "idLabel": {
+                    "$ref": "qYH11ADv7JtRKVJ+yOI="
+                  }
+                },
+                {
+                  "_type": "DFDDataStoreView",
+                  "_id": "kZcurVeXduWeYCx7tFw=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "EG9nDwZG6Uehhn/eOCY="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 342,
+                  "top": 317,
+                  "width": 142,
+                  "height": 40,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "TeylDGr/7bSH4ptcqMY=",
+                      "_parent": {
+                        "$ref": "kZcurVeXduWeYCx7tFw="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 352,
+                      "top": 329,
+                      "width": 122,
+                      "height": 13,
+                      "text": "订票信息",
+                      "wordWrap": true
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "ntlpMITqO1PR+8u4IAw=",
+                      "_parent": {
+                        "$ref": "kZcurVeXduWeYCx7tFw="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 352,
+                      "top": 322,
+                      "width": 122,
+                      "height": 13,
+                      "text": ""
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "TeylDGr/7bSH4ptcqMY="
+                  },
+                  "idLabel": {
+                    "$ref": "ntlpMITqO1PR+8u4IAw="
+                  }
+                },
+                {
+                  "_type": "DFDExternalEntityView",
+                  "_id": "vMeHMZOY07oxW/MfETo=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "AFTrHbe2DH4hwsoRjgg="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 90,
+                  "top": 477,
+                  "width": 135,
+                  "height": 40,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "BpBxj6K08dRRDvb9nxI=",
+                      "_parent": {
+                        "$ref": "vMeHMZOY07oxW/MfETo="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 100,
+                      "top": 489,
+                      "width": 115,
+                      "height": 13,
+                      "text": "航空公司",
+                      "wordWrap": true
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "BpBxj6K08dRRDvb9nxI="
+                  }
+                },
+                {
+                  "_type": "DFDProcessView",
+                  "_id": "nMs3TC0JDwpFVl/947g=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "G/9ZzD0vTxkdTIyYHQM="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 354,
+                  "top": 464,
+                  "width": 102,
+                  "height": 66,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "8KSrVBOVlt29Hc5S0AM=",
+                      "_parent": {
+                        "$ref": "nMs3TC0JDwpFVl/947g="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 364,
+                      "top": 476,
+                      "width": 82,
+                      "height": 13,
+                      "text": "安排航班",
+                      "wordWrap": true
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "peuh0crUcd3A2Uf5xqg=",
+                      "_parent": {
+                        "$ref": "nMs3TC0JDwpFVl/947g="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 364,
+                      "top": 469,
+                      "width": 82,
+                      "height": 13,
+                      "text": "1.1"
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "8KSrVBOVlt29Hc5S0AM="
+                  },
+                  "idLabel": {
+                    "$ref": "peuh0crUcd3A2Uf5xqg="
+                  }
+                },
+                {
+                  "_type": "DFDProcessView",
+                  "_id": "3bfbrOpQeHdqXCG4B/c=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "xs2xo0gyxXcdH0HJkQg="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 575,
+                  "top": 55,
+                  "width": 102,
+                  "height": 66,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "wAgnxsbz2yZ63DzJYdE=",
+                      "_parent": {
+                        "$ref": "3bfbrOpQeHdqXCG4B/c="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 585,
+                      "top": 67,
+                      "width": 82,
+                      "height": 13,
+                      "text": "打印机票",
+                      "wordWrap": true
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "Eu4IepCuQK0fQM4prBw=",
+                      "_parent": {
+                        "$ref": "3bfbrOpQeHdqXCG4B/c="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 585,
+                      "top": 60,
+                      "width": 82,
+                      "height": 13,
+                      "text": "2.2"
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "wAgnxsbz2yZ63DzJYdE="
+                  },
+                  "idLabel": {
+                    "$ref": "Eu4IepCuQK0fQM4prBw="
+                  }
+                },
+                {
+                  "_type": "DFDDataFlowView",
+                  "_id": "UoHR3/iBa4em2n5h8DY=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "mtbWUtIC2u3xVpB++f8="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "EdgeLabelView",
+                      "_id": "GV14DRQhSqhDn6UNtAk=",
+                      "_parent": {
+                        "$ref": "UoHR3/iBa4em2n5h8DY="
+                      },
+                      "model": {
+                        "$ref": "mtbWUtIC2u3xVpB++f8="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 191,
+                      "top": 112,
+                      "width": 52,
+                      "height": 13,
+                      "alpha": 1.5707963267948966,
+                      "distance": 18,
+                      "hostEdge": {
+                        "$ref": "UoHR3/iBa4em2n5h8DY="
+                      },
+                      "edgePosition": 1,
+                      "text": "旅客信息",
+                      "wordWrap": true
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "head": {
+                    "$ref": "vtkvB3WMAsXYUWukyZA="
+                  },
+                  "tail": {
+                    "$ref": "jh71uss4EiHVE1hzmvk="
+                  },
+                  "lineStyle": 1,
+                  "points": "224:189;342:189",
+                  "nameLabel": {
+                    "$ref": "GV14DRQhSqhDn6UNtAk="
+                  }
+                },
+                {
+                  "_type": "DFDDataFlowView",
+                  "_id": "86BgcSY5oVmTYSmDzzU=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "bApsIDP2a5KqMCoDBok="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "EdgeLabelView",
+                      "_id": "1R5EA8GHoOR5N6HoDZo=",
+                      "_parent": {
+                        "$ref": "86BgcSY5oVmTYSmDzzU="
+                      },
+                      "model": {
+                        "$ref": "bApsIDP2a5KqMCoDBok="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 191,
+                      "top": 112,
+                      "width": 52,
+                      "height": 13,
+                      "alpha": 1.5707963267948966,
+                      "distance": 18,
+                      "hostEdge": {
+                        "$ref": "86BgcSY5oVmTYSmDzzU="
+                      },
+                      "edgePosition": 1,
+                      "text": "航班信息",
+                      "wordWrap": true
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "head": {
+                    "$ref": "nMs3TC0JDwpFVl/947g="
+                  },
+                  "tail": {
+                    "$ref": "vMeHMZOY07oxW/MfETo="
+                  },
+                  "lineStyle": 1,
+                  "points": "224:496;354:496",
+                  "nameLabel": {
+                    "$ref": "1R5EA8GHoOR5N6HoDZo="
+                  }
+                },
+                {
+                  "_type": "DFDDataFlowView",
+                  "_id": "/RqdI5YO3KuKFnEGick=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "Cay+jrpq/EDKAx6rmXc="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "EdgeLabelView",
+                      "_id": "Pa4SftH+fGsKjHNED5A=",
+                      "_parent": {
+                        "$ref": "/RqdI5YO3KuKFnEGick="
+                      },
+                      "model": {
+                        "$ref": "Cay+jrpq/EDKAx6rmXc="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 191,
+                      "top": 112,
+                      "width": 52,
+                      "height": 13,
+                      "alpha": 1.5707963267948966,
+                      "distance": 43,
+                      "hostEdge": {
+                        "$ref": "/RqdI5YO3KuKFnEGick="
+                      },
+                      "edgePosition": 1,
+                      "text": "航班信息",
+                      "wordWrap": true
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "head": {
+                    "$ref": "kZcurVeXduWeYCx7tFw="
+                  },
+                  "tail": {
+                    "$ref": "nMs3TC0JDwpFVl/947g="
+                  },
+                  "lineStyle": 1,
+                  "points": "405:464;405:356",
+                  "nameLabel": {
+                    "$ref": "Pa4SftH+fGsKjHNED5A="
+                  }
+                },
+                {
+                  "_type": "DFDDataFlowView",
+                  "_id": "+T5IbOOLiD7OUjlyXQI=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "xRPmBHx6FCM2TWRqDdw="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "EdgeLabelView",
+                      "_id": "V/VwBvG6RneSK6D1L9w=",
+                      "_parent": {
+                        "$ref": "+T5IbOOLiD7OUjlyXQI="
+                      },
+                      "model": {
+                        "$ref": "xRPmBHx6FCM2TWRqDdw="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 191,
+                      "top": 112,
+                      "width": 52,
+                      "height": 13,
+                      "alpha": -1.5707963267948966,
+                      "distance": 42,
+                      "hostEdge": {
+                        "$ref": "+T5IbOOLiD7OUjlyXQI="
+                      },
+                      "edgePosition": 1,
+                      "text": "旅客信息",
+                      "wordWrap": true
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "head": {
+                    "$ref": "kZcurVeXduWeYCx7tFw="
+                  },
+                  "tail": {
+                    "$ref": "vtkvB3WMAsXYUWukyZA="
+                  },
+                  "lineStyle": 1,
+                  "points": "370:221;370:317",
+                  "nameLabel": {
+                    "$ref": "V/VwBvG6RneSK6D1L9w="
+                  }
+                },
+                {
+                  "_type": "DFDDataFlowView",
+                  "_id": "Vi9WIIYQSM+qMzEvgHM=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "Q6a3XknkHioVZrwarcc="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "EdgeLabelView",
+                      "_id": "HqtrhQpoCTnXY2sUTqM=",
+                      "_parent": {
+                        "$ref": "Vi9WIIYQSM+qMzEvgHM="
+                      },
+                      "model": {
+                        "$ref": "Q6a3XknkHioVZrwarcc="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 191,
+                      "top": 112,
+                      "width": 52,
+                      "height": 13,
+                      "alpha": -1.5707963267948966,
+                      "distance": 43,
+                      "hostEdge": {
+                        "$ref": "Vi9WIIYQSM+qMzEvgHM="
+                      },
+                      "edgePosition": 1,
+                      "text": "机票信息",
+                      "wordWrap": true
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "head": {
+                    "$ref": "vtkvB3WMAsXYUWukyZA="
+                  },
+                  "tail": {
+                    "$ref": "kZcurVeXduWeYCx7tFw="
+                  },
+                  "lineStyle": 1,
+                  "points": "414:317;414:221",
+                  "nameLabel": {
+                    "$ref": "HqtrhQpoCTnXY2sUTqM="
+                  }
+                },
+                {
+                  "_type": "DFDDataFlowView",
+                  "_id": "dy4/3DdeeweWEaz86CU=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "vfOCnX9PfnuN4Pkrcu0="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "EdgeLabelView",
+                      "_id": "9mRE6ZMsLWTSV2BqLSU=",
+                      "_parent": {
+                        "$ref": "dy4/3DdeeweWEaz86CU="
+                      },
+                      "model": {
+                        "$ref": "vfOCnX9PfnuN4Pkrcu0="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 191,
+                      "top": 112,
+                      "width": 52,
+                      "height": 13,
+                      "alpha": -1.5707963267948966,
+                      "distance": 23,
+                      "hostEdge": {
+                        "$ref": "dy4/3DdeeweWEaz86CU="
+                      },
+                      "edgePosition": 1,
+                      "text": "机票信息",
+                      "wordWrap": true
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "head": {
+                    "$ref": "3bfbrOpQeHdqXCG4B/c="
+                  },
+                  "tail": {
+                    "$ref": "vtkvB3WMAsXYUWukyZA="
+                  },
+                  "lineStyle": 2,
+                  "points": "443:189;626:189;626:120",
+                  "nameLabel": {
+                    "$ref": "9mRE6ZMsLWTSV2BqLSU="
+                  }
+                },
+                {
+                  "_type": "DFDDataFlowView",
+                  "_id": "7JVCYeN9Qe+3GmDUKig=",
+                  "_parent": {
+                    "$ref": "EyH33JQWswjiFHcU5nE="
+                  },
+                  "model": {
+                    "$ref": "REriHbZ6Qvi+OEMkYBc="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "EdgeLabelView",
+                      "_id": "DHkFCU5b++lg3bi9F6A=",
+                      "_parent": {
+                        "$ref": "7JVCYeN9Qe+3GmDUKig="
+                      },
+                      "model": {
+                        "$ref": "REriHbZ6Qvi+OEMkYBc="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 191,
+                      "top": 112,
+                      "width": 52,
+                      "height": 13,
+                      "alpha": -1.5707963267948966,
+                      "distance": 20,
+                      "hostEdge": {
+                        "$ref": "7JVCYeN9Qe+3GmDUKig="
+                      },
+                      "edgePosition": 1,
+                      "text": "机票信息",
+                      "wordWrap": true
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "head": {
+                    "$ref": "jh71uss4EiHVE1hzmvk="
+                  },
+                  "tail": {
+                    "$ref": "3bfbrOpQeHdqXCG4B/c="
+                  },
+                  "lineStyle": 2,
+                  "points": "575:89;200:89;200:170",
+                  "nameLabel": {
+                    "$ref": "DHkFCU5b++lg3bi9F6A="
+                  }
+                }
+              ]
+            },
+            {
+              "_type": "DFDExternalEntity",
+              "_id": "Hf6Lp878EsJgqTzAYz0=",
+              "_parent": {
+                "$ref": "EWd58wp9Eo51fFsLBNk="
+              },
+              "name": "旅客",
+              "ownedElements": [
+                {
+                  "_type": "DFDDataFlow",
+                  "_id": "mtbWUtIC2u3xVpB++f8=",
+                  "_parent": {
+                    "$ref": "Hf6Lp878EsJgqTzAYz0="
+                  },
+                  "name": "旅客信息",
+                  "source": {
+                    "$ref": "Hf6Lp878EsJgqTzAYz0="
+                  },
+                  "target": {
+                    "$ref": "VP4KxqHVWDp6Z4E+Km0="
+                  }
+                }
+              ]
+            },
+            {
+              "_type": "DFDProcess",
+              "_id": "VP4KxqHVWDp6Z4E+Km0=",
+              "_parent": {
+                "$ref": "EWd58wp9Eo51fFsLBNk="
+              },
+              "name": "订票",
+              "id": "2.1",
+              "ownedElements": [
+                {
+                  "_type": "DFDDataFlow",
+                  "_id": "xRPmBHx6FCM2TWRqDdw=",
+                  "_parent": {
+                    "$ref": "VP4KxqHVWDp6Z4E+Km0="
+                  },
+                  "name": "旅客信息",
+                  "source": {
+                    "$ref": "VP4KxqHVWDp6Z4E+Km0="
+                  },
+                  "target": {
+                    "$ref": "EG9nDwZG6Uehhn/eOCY="
+                  }
+                },
+                {
+                  "_type": "DFDDataFlow",
+                  "_id": "vfOCnX9PfnuN4Pkrcu0=",
+                  "_parent": {
+                    "$ref": "VP4KxqHVWDp6Z4E+Km0="
+                  },
+                  "name": "机票信息",
+                  "source": {
+                    "$ref": "VP4KxqHVWDp6Z4E+Km0="
+                  },
+                  "target": {
+                    "$ref": "xs2xo0gyxXcdH0HJkQg="
+                  }
+                }
+              ]
+            },
+            {
+              "_type": "DFDDataStore",
+              "_id": "EG9nDwZG6Uehhn/eOCY=",
+              "_parent": {
+                "$ref": "EWd58wp9Eo51fFsLBNk="
+              },
+              "name": "订票信息",
+              "ownedElements": [
+                {
+                  "_type": "DFDDataFlow",
+                  "_id": "Q6a3XknkHioVZrwarcc=",
+                  "_parent": {
+                    "$ref": "EG9nDwZG6Uehhn/eOCY="
+                  },
+                  "name": "机票信息",
+                  "source": {
+                    "$ref": "EG9nDwZG6Uehhn/eOCY="
+                  },
+                  "target": {
+                    "$ref": "VP4KxqHVWDp6Z4E+Km0="
+                  }
+                }
+              ]
+            },
+            {
+              "_type": "DFDExternalEntity",
+              "_id": "AFTrHbe2DH4hwsoRjgg=",
+              "_parent": {
+                "$ref": "EWd58wp9Eo51fFsLBNk="
+              },
+              "name": "航空公司",
+              "ownedElements": [
+                {
+                  "_type": "DFDDataFlow",
+                  "_id": "bApsIDP2a5KqMCoDBok=",
+                  "_parent": {
+                    "$ref": "AFTrHbe2DH4hwsoRjgg="
+                  },
+                  "name": "航班信息",
+                  "source": {
+                    "$ref": "AFTrHbe2DH4hwsoRjgg="
+                  },
+                  "target": {
+                    "$ref": "G/9ZzD0vTxkdTIyYHQM="
+                  }
+                }
+              ]
+            },
+            {
+              "_type": "DFDProcess",
+              "_id": "G/9ZzD0vTxkdTIyYHQM=",
+              "_parent": {
+                "$ref": "EWd58wp9Eo51fFsLBNk="
+              },
+              "name": "安排航班",
+              "id": "1.1",
+              "ownedElements": [
+                {
+                  "_type": "DFDDataFlow",
+                  "_id": "Cay+jrpq/EDKAx6rmXc=",
+                  "_parent": {
+                    "$ref": "G/9ZzD0vTxkdTIyYHQM="
+                  },
+                  "name": "航班信息",
+                  "source": {
+                    "$ref": "G/9ZzD0vTxkdTIyYHQM="
+                  },
+                  "target": {
+                    "$ref": "EG9nDwZG6Uehhn/eOCY="
+                  }
+                }
+              ]
+            },
+            {
+              "_type": "DFDProcess",
+              "_id": "xs2xo0gyxXcdH0HJkQg=",
+              "_parent": {
+                "$ref": "EWd58wp9Eo51fFsLBNk="
+              },
+              "name": "打印机票",
+              "id": "2.2",
+              "ownedElements": [
+                {
+                  "_type": "DFDDataFlow",
+                  "_id": "REriHbZ6Qvi+OEMkYBc=",
+                  "_parent": {
+                    "$ref": "xs2xo0gyxXcdH0HJkQg="
+                  },
+                  "name": "机票信息",
+                  "source": {
+                    "$ref": "xs2xo0gyxXcdH0HJkQg="
+                  },
+                  "target": {
+                    "$ref": "Hf6Lp878EsJgqTzAYz0="
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "_type": "Project",
+  "_id": "3JN6a7IvEdpzOmFoqdg=",
+  "name": "Untitled",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "jyZZmJmAv0tazs6jaTI=",
+      "_parent": {
+        "$ref": "3JN6a7IvEdpzOmFoqdg="
+      },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "PvjqbfwECWWO+BhnkDc=",
+          "_parent": {
+            "$ref": "jyZZmJmAv0tazs6jaTI="
+          },
+          "name": "Main",
+          "ownedViews": []
+        },
+        {
+          "_type": "DFDDataFlowModel",
+          "_id": "ynx+ZOoAH935hcEEYBI=",
+          "_parent": {
+            "$ref": "jyZZmJmAv0tazs6jaTI="
+          },
+          "name": "DataFlowModel1",
+          "ownedElements": [
+            {
+              "_type": "DFDDiagram",
+              "_id": "QZmiKvMc3y/g4rrOxsM=",
+              "_parent": {
+                "$ref": "ynx+ZOoAH935hcEEYBI="
+              },
+              "name": "DFDDiagram1",
+              "defaultDiagram": true,
+              "ownedViews": [
+                {
+                  "_type": "DFDExternalEntityView",
+                  "_id": "eybfMQfeFLOxjhCHe4g=",
+                  "_parent": {
+                    "$ref": "QZmiKvMc3y/g4rrOxsM="
+                  },
+                  "model": {
+                    "$ref": "drZKnFSC6ZwINPI+Grk="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 90,
+                  "top": 164,
+                  "width": 130,
+                  "height": 36,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "6lM9RnXSuH5ihorOdo0=",
+                      "_parent": {
+                        "$ref": "eybfMQfeFLOxjhCHe4g="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 100,
+                      "top": 176,
+                      "width": 110,
+                      "height": 13,
+                      "text": "旅客",
+                      "wordWrap": true
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "6lM9RnXSuH5ihorOdo0="
+                  }
+                }
+              ]
+            },
+            {
+              "_type": "DFDExternalEntity",
+              "_id": "drZKnFSC6ZwINPI+Grk=",
+              "_parent": {
+                "$ref": "ynx+ZOoAH935hcEEYBI="
+              },
+              "name": "旅客"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
