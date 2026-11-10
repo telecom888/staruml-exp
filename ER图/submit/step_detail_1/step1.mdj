@@ -1,0 +1,227 @@
+{
+  "_type": "Project",
+  "_id": "0kDbLMDlDX9xmFZW8S0=",
+  "name": "Untitled",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "PxJeztF7rOqEHVvnI78=",
+      "_parent": {
+        "$ref": "0kDbLMDlDX9xmFZW8S0="
+      },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "Dl6K16aIvvZtK7FrtJA=",
+          "_parent": {
+            "$ref": "PxJeztF7rOqEHVvnI78="
+          },
+          "name": "Main",
+          "ownedViews": []
+        },
+        {
+          "_type": "ERDDataModel",
+          "_id": "utxO+JzebwkBzRyUk7Q=",
+          "_parent": {
+            "$ref": "PxJeztF7rOqEHVvnI78="
+          },
+          "name": "Data Model1",
+          "ownedElements": [
+            {
+              "_type": "ERDDiagram",
+              "_id": "QIDLPpLX2cc6raZQAos=",
+              "_parent": {
+                "$ref": "utxO+JzebwkBzRyUk7Q="
+              },
+              "name": "ERDDiagram1",
+              "defaultDiagram": true,
+              "ownedViews": [
+                {
+                  "_type": "ERDEntityView",
+                  "_id": "VTz23tu4Dl2hvHoanXk=",
+                  "_parent": {
+                    "$ref": "QIDLPpLX2cc6raZQAos="
+                  },
+                  "model": {
+                    "$ref": "V4lGjl5rBG2X+1mDfXk="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 283,
+                  "top": 70,
+                  "width": 108,
+                  "height": 48,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "PLVZiG81B09iatYd06c=",
+                      "_parent": {
+                        "$ref": "VTz23tu4Dl2hvHoanXk="
+                      },
+                      "parentStyle": true,
+                      "font": "Arial;13;1",
+                      "left": 288,
+                      "top": 75,
+                      "width": 98,
+                      "height": 13,
+                      "text": "旅客"
+                    },
+                    {
+                      "_type": "ERDColumnCompartmentView",
+                      "_id": "rxPeSUJ4BrEMb9576Vw=",
+                      "_parent": {
+                        "$ref": "VTz23tu4Dl2hvHoanXk="
+                      },
+                      "model": {
+                        "$ref": "V4lGjl5rBG2X+1mDfXk="
+                      },
+                      "parentStyle": true,
+                      "left": 283,
+                      "top": 93,
+                      "width": 108,
+                      "height": 25
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "PLVZiG81B09iatYd06c="
+                  },
+                  "columnCompartment": {
+                    "$ref": "rxPeSUJ4BrEMb9576Vw="
+                  }
+                },
+                {
+                  "_type": "ERDEntityView",
+                  "_id": "eHHSFbpoIjFDquNiR0g=",
+                  "_parent": {
+                    "$ref": "QIDLPpLX2cc6raZQAos="
+                  },
+                  "model": {
+                    "$ref": "dBqlri6fai9fBQBPo40="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 131,
+                  "top": 327,
+                  "width": 108,
+                  "height": 48,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "SPAQxsVvKabsJ4SkTQo=",
+                      "_parent": {
+                        "$ref": "eHHSFbpoIjFDquNiR0g="
+                      },
+                      "parentStyle": true,
+                      "font": "Arial;13;1",
+                      "left": 136,
+                      "top": 332,
+                      "width": 98,
+                      "height": 13,
+                      "text": "机票"
+                    },
+                    {
+                      "_type": "ERDColumnCompartmentView",
+                      "_id": "gxQDQBW2mkzJX8nWlrI=",
+                      "_parent": {
+                        "$ref": "eHHSFbpoIjFDquNiR0g="
+                      },
+                      "model": {
+                        "$ref": "dBqlri6fai9fBQBPo40="
+                      },
+                      "parentStyle": true,
+                      "left": 131,
+                      "top": 350,
+                      "width": 108,
+                      "height": 25
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "SPAQxsVvKabsJ4SkTQo="
+                  },
+                  "columnCompartment": {
+                    "$ref": "gxQDQBW2mkzJX8nWlrI="
+                  }
+                },
+                {
+                  "_type": "ERDEntityView",
+                  "_id": "DQsK+BGu2T8LymD4UZM=",
+                  "_parent": {
+                    "$ref": "QIDLPpLX2cc6raZQAos="
+                  },
+                  "model": {
+                    "$ref": "vg2TSg0adD9tiVefzGU="
+                  },
+                  "font": "Arial;13;0",
+                  "left": 427,
+                  "top": 336,
+                  "width": 135,
+                  "height": 48,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "sz+uj3DG3HS+ntoWdtw=",
+                      "_parent": {
+                        "$ref": "DQsK+BGu2T8LymD4UZM="
+                      },
+                      "parentStyle": true,
+                      "font": "Arial;13;1",
+                      "left": 432,
+                      "top": 341,
+                      "width": 125,
+                      "height": 13,
+                      "text": "航空公司"
+                    },
+                    {
+                      "_type": "ERDColumnCompartmentView",
+                      "_id": "LTeD6vMAaH10Upo4r+M=",
+                      "_parent": {
+                        "$ref": "DQsK+BGu2T8LymD4UZM="
+                      },
+                      "model": {
+                        "$ref": "vg2TSg0adD9tiVefzGU="
+                      },
+                      "parentStyle": true,
+                      "left": 427,
+                      "top": 359,
+                      "width": 135,
+                      "height": 25
+                    }
+                  ],
+                  "nameLabel": {
+                    "$ref": "sz+uj3DG3HS+ntoWdtw="
+                  },
+                  "columnCompartment": {
+                    "$ref": "LTeD6vMAaH10Upo4r+M="
+                  }
+                }
+              ]
+            },
+            {
+              "_type": "ERDEntity",
+              "_id": "V4lGjl5rBG2X+1mDfXk=",
+              "_parent": {
+                "$ref": "utxO+JzebwkBzRyUk7Q="
+              },
+              "name": "旅客"
+            },
+            {
+              "_type": "ERDEntity",
+              "_id": "dBqlri6fai9fBQBPo40=",
+              "_parent": {
+                "$ref": "utxO+JzebwkBzRyUk7Q="
+              },
+              "name": "机票"
+            },
+            {
+              "_type": "ERDEntity",
+              "_id": "vg2TSg0adD9tiVefzGU=",
+              "_parent": {
+                "$ref": "utxO+JzebwkBzRyUk7Q="
+              },
+              "name": "航空公司"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
